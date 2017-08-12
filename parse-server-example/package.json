@@ -9,13 +9,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "~4.11.x",
     "kerberos": "~0.0.x",
-    "parse": "~1.8.0",
-    "parse-server": "*"
+    "parse": "^1.10.0",
+    "parse-server": "*",
+    "request": "^2.81.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "engines": {
     "node": ">=4.3"
